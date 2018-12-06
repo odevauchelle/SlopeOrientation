@@ -11,7 +11,7 @@ f = ( z - .5 )*( z + .2 +.5j )**3
 
 figure('', ( 6, 6) )
 cmap = cc.cyclic_colormap()
-imshow( angle(f), cmap = cmap, extent = ( min(x), max(x), min(y), max(y)) )
+imshow( angle(f), cmap = cmap, extent = ( min(x), max(x), min(y), max(y)), rasterized=True )
 
 axis('equal')
 

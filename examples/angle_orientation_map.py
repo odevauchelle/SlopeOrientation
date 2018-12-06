@@ -17,7 +17,7 @@ axes([ margin, margin, 1-2*margin, 1-2*margin ])
 cmap = cc.cyclic_colormap()
 
 contour( h, colors = 'white', linestyles = '--', alpha = .3 )
-imshow( orientation, cmap = cmap )
+imshow( orientation, cmap = cmap, rasterized=True )
 axis('equal')
 axis('off')
 
