@@ -22,4 +22,4 @@ contourf( x, y, h )
 axis('equal')
 show()
 
-savetxt( './h.csv', h )
+savetxt( '../Data/h.csv', h )

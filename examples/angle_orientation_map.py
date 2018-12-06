@@ -5,7 +5,7 @@ import SlopeOrientation.CyclicColormap as cc
 
 from pylab import *
 
-h = loadtxt('./h.csv')
+h = loadtxt('../Data/h.csv')
 
 dxh, dyh = gradient(h)
 orientation = angle( dxh + 1j*dyh )
@@ -23,5 +23,5 @@ axis('off')
 
 cc.cyclic_colorbar( cmap, ticks = cc.geo_ticks )
 
-savefig('angle_orientation_map.svg')
+savefig('../Figures/angle_orientation_map.svg')
 show()
