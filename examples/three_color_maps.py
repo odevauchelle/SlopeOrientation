@@ -13,6 +13,6 @@ for i in range( 2, 5 ) :
     cc.cyclic_colorbar( cmap, ax = gca() )
     gca().set_title( str(i) + ' colors' )
 
-savefig('../Figures/default_color_maps.svg', bbox_inches = 'tight')
+savefig('../Figures/three_color_maps.svg', bbox_inches = 'tight')
 
 show()
