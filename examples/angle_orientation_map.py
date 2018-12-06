@@ -23,5 +23,5 @@ axis('off')
 
 cc.cyclic_colorbar( cmap, ticks = cc.geo_ticks )
 
-savefig('../Figures/slope_orientation_map.svg')
+savefig('../Figures/slope_orientation_map.svg', dpi = 300)
 show()

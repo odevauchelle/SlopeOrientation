@@ -18,5 +18,5 @@ axis('equal')
 cc.cyclic_colorbar( cmap )
 
 
-savefig('../Figures/analytic_function.svg')
+savefig('../Figures/analytic_function.svg', dpi = 300)
 show()
