@@ -17,11 +17,11 @@ axes([ margin, margin, 1-2*margin, 1-2*margin ])
 cmap = cc.cyclic_colormap()
 
 contour( h, colors = 'white', linestyles = '--', alpha = .3 )
-imshow( orientation, cmap = cmap, rasterized=True )
+imshow( orientation, cmap = cmap)
 axis('equal')
 axis('off')
 
 cc.cyclic_colorbar( cmap, ticks = cc.geo_ticks )
 
-savefig('../Figures/slope_orientation_map.svg', dpi = 300)
+savefig('../Figures/slope_orientation_map.png')
 show()

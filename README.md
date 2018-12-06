@@ -63,7 +63,7 @@ cc.cyclic_colorbar( cmap )
 
 show()
 ```
-![Analytic function](./Figures/analytic_function.svg)
+![Analytic function](./Figures/analytic_function.png)
 
 ## Slope orientation of a topographic map
 
@@ -91,6 +91,6 @@ cc.cyclic_colorbar( cmap, ticks = cc.geo_ticks )
 
 show()
 ```
-![Slope orientation](./Figures/slope_orientation_map.svg)
+![Slope orientation](./Figures/slope_orientation_map.png)
 
 
