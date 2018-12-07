@@ -23,6 +23,8 @@ show()
 
 ## Create colormaps
 
+The colormap should go through three colors at least.
+
 ```python
 import SlopeOrientation.CyclicColormap as cc
 from pylab import *
